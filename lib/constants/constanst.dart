@@ -10,7 +10,7 @@ final kCardNumberTextStyle = TextStyle(
 );
 
 final kCardDefaultTextStyle = TextStyle(
-  color: Colors.grey,
+  color: Color.fromRGBO(70, 82, 86, 0.6),
   fontFamily: 'U and I',
   package: 'credit_card_input_form',
   fontSize: 25,
@@ -28,7 +28,7 @@ final kCVCTextStyle = TextStyle(
 final kTextStyle = TextStyle(
   fontSize: 8,
   fontWeight: FontWeight.bold,
-  color: Color.fromRGBO(70, 82, 86, 0.6),
+  color: Colors.white,
   fontFamily: 'U and I',
   package: 'credit_card_input_form',
 );
