@@ -28,7 +28,7 @@ final kCVCTextStyle = TextStyle(
 final kTextStyle = TextStyle(
   fontSize: 8,
   fontWeight: FontWeight.bold,
-  color: Color.fromRGBO(70, 82, 86, 1),
+  color: Colors.white,
   fontFamily: 'U and I',
   package: 'credit_card_input_form',
 );
@@ -50,14 +50,14 @@ const kDefaultNameTextStyle = TextStyle(
 const kValidtextStyle = TextStyle(
   fontSize: 15,
   letterSpacing: 2,
-  color: Color.fromRGBO(70, 82, 86, 1),
+  color: Colors.white,
   package: 'credit_card_input_form',
   fontFamily: 'U and I',
 );
 
 const kDefaultValidTextStyle = TextStyle(
   fontSize: 15,
-  color: Colors.grey,
+  color: Color.fromRGBO(70, 82, 86, 1),
   fontFamily: 'U and I',
   package: 'credit_card_input_form',
 );

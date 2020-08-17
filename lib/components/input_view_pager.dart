@@ -161,6 +161,7 @@ class _InputFormState extends State<InputForm> {
               height: 5,
             ),
             TextField(
+              style: TextStyle(color: Colors.black),
               autofocus: widget.index == 0,
               controller: textController
                 ..value = textController.value.copyWith(
